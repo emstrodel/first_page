@@ -2,14 +2,12 @@
 
 
 .activity-bar {
-display: flex;
 gap: 5px;
 }
 .activity { 
-display: flex;
 max-width: fit-content;
-flex-direction: column;
-padding: 2%;
+padding: 1%;
+border-radius: 5px;
 border:5px solid#666;
 }
 
@@ -25,9 +23,19 @@ border:5px solid#666;
 }
 
 label {
-  display: block;
+  display: inline;
   font: 1rem 'Fira Sans', sans-serif;
 }
+.time{
+  width: 100px;
+}
+.number{
+  width: 100px;
+}
+.text{
+  width: 100px;
+}
+
 
 input,
 label {
@@ -128,15 +136,6 @@ span {
 .h9 {
   left: 32px;
   top: 140px;
-}
-.time{
-  width: 100px;
-}
-.number{
-  width: 100px;
-}
-.text{
-  width: 200px;
 }
 
 .diallines {

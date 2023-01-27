@@ -9,25 +9,30 @@
 </head>
 
 <body>
-
-  <div class="activity-bar">
-    <div class='activity'>
-      <label for="start">Name:</label>
-      <input class= 'text', type="text" name="name">
-      <label for="start">Start time:</label>
-      <input class= 'time', type="time" name="start">
-      <label for="length">Activity length:</label>
-      <input class= 'number', type="number" name="length">
-    </div>
-    <div style="display: inline;" id="nabutton">
-      <button type="button">New Activity</button>
-    </div>
+  <div style="display: inline;" id="nabutton">
+    <button type="button" style="margin: 10px;">New Activity</button>
+  </div>
+  
+   <div class="activity-bar">
+      <div class='activity' style="display: none; margin: 10px;">
+        <label for="start">Name:</label>
+        <input class= 'text', type="text" name="name">
+        <label for="start">Start time:</label>
+        <input class= 'time', type="time" name="start">
+        <label for="length">Activity length:</label>
+        <input class= 'number', type="number" name="length">
+        <button type="button"> Remove</button>
+      </div>
   </div>
 
  
 
   <div class="clock">
-    <div class="sector"></div>
+
+    <div id="sectors">
+      <div class="sector"></div>
+    </div>
+
     <div class="dot"></div>
     <div>
       <div class="hour-hand"></div>
