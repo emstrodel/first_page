@@ -3,6 +3,7 @@
 
 .activity-bar {
 gap: 5px;
+width: 200px ;
 }
 .activity { 
 max-width: fit-content;
@@ -22,25 +23,12 @@ border:5px solid#666;
   box-shadow: 0 2vw 4vw -1vw rgba(0,0,0,0.8);
 }
 
+
 label {
   display: inline;
-  font: 1rem 'Fira Sans', sans-serif;
-}
-.time{
-  width: 100px;
-}
-.number{
-  width: 100px;
-}
-.text{
-  width: 100px;
+  font: .75rem 'Fira Sans', sans-serif;
 }
 
-
-input,
-label {
-  margin: 0.2rem 0;
-}
 
 .sector {
   position:absolute;
