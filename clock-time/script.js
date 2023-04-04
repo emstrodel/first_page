@@ -12,11 +12,12 @@ clockEl.appendChild(newline)
 dialLines[i].style.transform = "rotate(" + 6 * i + "deg)"; 
 }
 
-var naBtn = document.getElementsByTagName("button")[0];
+var naBtn = document.getElementById('nabutton');
 naBtn.addEventListener('click', newActivity);
 
 
 function newActivity(){
+  alert("jello")
   n=document.getElementsByClassName('activity').length
 
   var newActivityEl = document.querySelector('.activity');
